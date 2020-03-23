@@ -3,10 +3,10 @@ entries:
   argo-cd:
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2020-03-23T16:34:00.48391+09:00"
+    created: "2020-03-23T16:41:13.81475+09:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
-    digest: a8c7f4a9e0d5a3d1f87601e38a4603a1c50fcbbe9e1e9d843105e5bb4d84673a
+    digest: 6f06173ead04aacecdf245b172013d77f671cde5f145829caa216c548c033668
     home: https://github.com/taishin/argo-helm
     icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
     keywords:
@@ -22,4 +22,4 @@ entries:
     urls:
     - argo-cd-2.0.0.tgz
     version: 2.0.0
-generated: "2020-03-23T16:34:00.47273+09:00"
+generated: "2020-03-23T16:41:13.809239+09:00"
