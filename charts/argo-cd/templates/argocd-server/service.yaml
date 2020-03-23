@@ -22,10 +22,12 @@ spec:
     protocol: TCP
     port: {{ .Values.server.service.servicePortHttp }}
     targetPort: {{ .Values.server.name }}
+    nodePort: {{ .Values.server.service.nodePort }}
   - name: https
     protocol: TCP
     port: {{ .Values.server.service.servicePortHttps }}
     targetPort: {{ .Values.server.name }}
+    nodePort: {{ .Values.server.service.nodePort }}
   selector:
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/name: {{ include "argo-cd.name" . }}-{{ .Values.server.name }}
